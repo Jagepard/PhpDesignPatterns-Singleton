@@ -39,14 +39,23 @@ trait SingletonTrait
     {
     }
 
+    /**
+     * @codeCoverageIgnore
+     */
     public function __sleep()
     {
     }
 
+    /**
+     * @codeCoverageIgnore
+     */
     public function __wakeup()
     {
     }
 
+    /**
+     * @codeCoverageIgnore
+     */
     public function __clone()
     {
     }
