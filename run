@@ -1,0 +1,10 @@
+#! usr/bin/env php
+<?php
+
+namespace Creational\FactoryMethod;
+
+use AntiPatterns\Singleton\Singleton;
+
+require_once 'vendor/autoload.php';
+
+echo Singleton::getInstance()->getClassName();
