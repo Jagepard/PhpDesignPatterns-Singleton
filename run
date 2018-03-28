@@ -1,9 +1,7 @@
 #! usr/bin/env php
 <?php
 
-namespace Creational\FactoryMethod;
-
-use AntiPatterns\Singleton\Singleton;
+namespace AntiPatterns\Singleton;
 
 require_once 'vendor/autoload.php';
 
