@@ -13,7 +13,7 @@ use AntiPatterns\Singleton\Singleton;
 
 
 /**
- * Class FactoryMethodTest
+ * Class SingletonTest
  */
 class SingletonTest extends PHPUnit_Framework_TestCase
 {
