@@ -5,4 +5,4 @@ namespace AntiPatterns\Singleton;
 
 require_once 'vendor/autoload.php';
 
-echo Singleton::getInstance()->getClassName();
+print (!Singleton::getInstance() instanceof Singleton) ?: "Singleton \n";
