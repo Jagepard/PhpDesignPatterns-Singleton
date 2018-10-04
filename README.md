@@ -7,3 +7,5 @@
 
 # Singleton | [API](https://github.com/Jagepard/PhpDesignPatterns-Singleton/blob/master/docs.md "Documentation API")
 Одиночка
+
+![Singleton](https://github.com/Jagepard/PhpDesignPatterns-Singleton/blob/master/UML.png)
