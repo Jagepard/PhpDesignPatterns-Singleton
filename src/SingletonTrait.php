@@ -16,14 +16,14 @@ namespace AntiPatterns\Singleton;
 trait SingletonTrait
 {
     /**
-     * @var Singleton
+     * @var self
      */
     private static $instance;
 
     /**
-     * @return mixed
+     * @return self
      */
-    public static function getInstance()
+    public static function getInstance(): self
     {
         if (!self::$instance instanceof self) {
             self::$instance = new self();
