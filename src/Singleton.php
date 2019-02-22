@@ -15,6 +15,5 @@ namespace AntiPatterns\Singleton;
  */
 final class Singleton
 {
-
     use SingletonTrait;
 }
