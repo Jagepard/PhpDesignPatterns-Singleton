@@ -15,11 +15,10 @@ namespace AntiPatterns\Singleton;
  */
 trait SingletonTrait
 {
-
     /**
      * @var Singleton
      */
-    protected static $instance;
+    private static $instance;
 
     /**
      * @return mixed
@@ -33,6 +32,9 @@ trait SingletonTrait
         return self::$instance;
     }
 
+    /**
+     * SingletonTrait constructor.
+     */
     public function __construct()
     {
     }
