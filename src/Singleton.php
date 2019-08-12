@@ -9,10 +9,6 @@ declare(strict_types=1);
 
 namespace AntiPatterns\Singleton;
 
-/**
- * Class Singleton
- * @package AntiPatterns\Singleton
- */
 final class Singleton
 {
     use SingletonTrait;

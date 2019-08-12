@@ -12,9 +12,6 @@ namespace AntiPatterns\Singleton\Tests;
 use AntiPatterns\Singleton\Singleton;
 use PHPUnit\Framework\TestCase as PHPUnit_Framework_TestCase;
 
-/**
- * Class SingletonTest
- */
 class SingletonTest extends PHPUnit_Framework_TestCase
 {
     public function testInstance()
