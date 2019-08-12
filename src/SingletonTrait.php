@@ -9,10 +9,6 @@ declare(strict_types=1);
 
 namespace AntiPatterns\Singleton;
 
-/**
- * Trait SingletonTrait
- * @package AntiPatterns\Singleton
- */
 trait SingletonTrait
 {
     /**
