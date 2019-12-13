@@ -6,8 +6,6 @@
 -----
 
 # Singleton | [API](https://github.com/Jagepard/PhpDesignPatterns-Singleton/blob/master/docs.md "Documentation API")
-```php run``` Запустить исполнение шаблона в терминале
-
-Одиночка
+```php run``` execute in terminal
 
 ![Singleton](https://github.com/Jagepard/PhpDesignPatterns-Singleton/blob/master/UML.png)
