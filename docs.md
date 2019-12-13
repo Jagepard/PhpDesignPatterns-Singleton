@@ -6,13 +6,11 @@
 
 ### Class: \AntiPatterns\Singleton\Singleton
 
-> Class Singleton
-
 | Visibility | Function |
 |:-----------|:---------|
 | public | <strong>__clone()</strong> : <em>void</em> |
-| public | <strong>__construct()</strong> : <em>void</em> |
+| public | <strong>__construct()</strong> : <em>void</em><br /><em>SingletonTrait constructor.</em> |
 | public | <strong>__sleep()</strong> : <em>void</em> |
 | public | <strong>__wakeup()</strong> : <em>void</em> |
-| public static | <strong>getInstance()</strong> : <em>mixed</em> |
+| public static | <strong>getInstance()</strong> : <em>\AntiPatterns\Singleton\self</em> |
 
