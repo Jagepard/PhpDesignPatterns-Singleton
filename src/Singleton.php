@@ -9,14 +9,8 @@ namespace AntiPatterns\Singleton;
 
 final class Singleton
 {
-    /**
-     * @var self
-     */
-    private static $instance;
+    private static self $instance;
 
-    /**
-     * @return self
-     */
     public static function getInstance(): self
     {
         if (!self::$instance instanceof self) {
@@ -26,9 +20,6 @@ final class Singleton
         return self::$instance;
     }
 
-    /**
-     * SingletonTrait constructor.
-     */
     public function __construct()
     {
     }
