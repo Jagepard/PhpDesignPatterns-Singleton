@@ -9,7 +9,10 @@ namespace AntiPatterns\Singleton;
 
 final class Singleton
 {
-    private static self $instance;
+    /**
+     * @var Singleton
+     */
+    private static $instance;
 
     public static function getInstance(): self
     {
