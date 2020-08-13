@@ -7,3 +7,8 @@
 
 # Singleton | [API](https://github.com/Jagepard/PhpDesignPatterns-Singleton/blob/master/docs.md "Documentation API")
 ```php run``` execute in terminal
+
+##Result:
+```
+Singleton
+```
