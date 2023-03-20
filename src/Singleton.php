@@ -14,6 +14,13 @@ final class Singleton
      */
     private static $instance;
 
+    /**
+     * Gets an object instance
+     * --------------------------
+     * Получает экземпляр объекта
+     * 
+     * @return self
+     */
     public static function getInstance(): self
     {
         if (!self::$instance instanceof self) {
